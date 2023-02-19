@@ -1,5 +1,28 @@
 .header {
+  width: calc(100% - 96px);
   display: flex;
   justify-content: space-between;
   padding: 28px 48px 56px 48px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 28px 48px 48px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px);
+    padding: 28px 24px 48px 24px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header {
+    width: calc(100% - 32px);
+    height: 42px;
+    padding: 16px 16px 48px 16px;
+  }
 }
