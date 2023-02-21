@@ -22,125 +22,16 @@
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__item-image/photo-grid__item-image.css);
-
-/*html {
-  overflow-y: hidden;
-}*/
-
-
-
-.places {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding-top: 92px;
-}
-
-.place {
-  display: grid;
-  grid-template-columns: minmax(1fr, max-content) minmax(min-content, max-content);
-  grid-template-areas:
-  "title website"
-  "image paragraphs";
-  gap: 48px 40px;
-  margin: 0 auto;
-}
-
-.place__title {
-  width: 100%;
-  max-width: 460px;
-  color: #fff;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 1;
-  margin: 0;
-  grid-area: title;
-}
-
-.place__website {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 100%;
-  max-width: 456px;
-  grid-area: website;
-}
-
-.place__url-heading {
-  color: #aaa;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1;
-}
-
-.place__link {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.2;
-}
-
-.place__image {
-  max-width: 460px;
-  width: 100%;
-  vertical-align: top;
-  object-fit: cover;
-  grid-area: image;
-  /*display: block;*/
-}
-
-.place__paragraphs {
-  grid-area: paragraphs;
-  max-width: 484px;
-  width: 100%;
-}
-
-.place__paragraph {
-  width: 100%;
-  margin: 0;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.6;
-}
-
-.place__paragraph:first-child {
-  margin-bottom: 26px;
-}
-
-@media screen and (max-width: 1025px) {
-  .place__paragraphs {
-
-    width: 100%;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title/_wrap/place__title_wrap.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 
 
 
