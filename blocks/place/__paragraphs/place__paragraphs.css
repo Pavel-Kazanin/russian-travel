@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.place__paragraphs :nth-child(2) {
+  margin-top: 26px;
+}
+
 @media screen and (max-width: 767px) {
   .place__paragraphs {
     max-width: calc(100% - 16px*2);
