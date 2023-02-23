@@ -25,6 +25,7 @@
   background-color: #2a2c2f;
   opacity: 0.3;
   z-index: -1;
+  transition: 0.8s ease-in-out;
 }
 
 .cover__link:hover::before {

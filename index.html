@@ -8,15 +8,15 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body class="body-bg">
   <!--Начало страницы-->
   <div class="page">
     <!--Начало блока Header-->
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
       <div class="header__links">
-        <p class="header__lang-link-container"><a href="#" class="header__lang-link header__lang-link_active">Ru</a></p>
-        <p class="header__lang-link-container"><a href="#" class="header__lang-link">En</a></p>
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link">En</a>
       </div>
     </header>
     <!--Конец блока Header-->
@@ -64,8 +64,8 @@
       <!--Начало секции Places-->
       <section class="places">
         <!--Куршская коса начало-->
-        <div class="places__place place">
-          <h2 class="place__title">Куршская <span class="place__title place__title_wrap">коса</span></h2>
+        <article class="places__place place">
+          <h2 class="place__title">Куршская коса</h2>
           <nav class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
@@ -73,10 +73,10 @@
           <img class="place__image" alt="Фото Куршской косы" src="./images/place-kosa.jpg">
           <div class="place__paragraphs">
             <p class="place__paragraph">Здесь, посреди лесов и&nbsp;песчаных дюн, вы сможете увидеть два водных горизонта&nbsp;&mdash; спокойного Куршского залива с&nbsp;одной стороны и&nbsp;подёрнутого рябью волн Балтийского моря с&nbsp;другой. Уникальная природная зона на&nbsp;краю российского анклава.</p>
-            <p class="place__paragraph">На&nbsp;этом Калининградская область не заканчивается. Для путешественника
+            <p class="place__paragraph place__paragraph_count_second">На&nbsp;этом Калининградская область не заканчивается. Для путешественника
               и&nbsp;исследователя&nbsp;там&nbsp;же&nbsp;по соседству&nbsp;&mdash; самая западная точка России, Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и&nbsp;запах стального, прохладного моря.</p>
           </div>
-        </div>
+        </article>
         <!--Куршская коса конец-->
         <!--Кольский начало-->
         <div class="places__place place">
@@ -89,7 +89,7 @@
           <div class="place__paragraphs">
             <p class="place__paragraph">Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская тундра, от&nbsp;которой на&nbsp;юг &mdash; тайга,&nbsp;а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан, прикидывающийся Баренцевым морем.
             </p>
-            <p class="place__paragraph">Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю арктического фестиваля в Териберке. Возможно, слово &laquo;Хибины&raquo;&nbsp;не осталось под снегом школьных воспоминаний об&nbsp;уроках географии. Возможно, вы&nbsp;не интересовались пронизывающей земную кору сверхглубокой скважиной, а&nbsp;от&nbsp;апатитов вас&nbsp;давно накрывает апатия. Но&nbsp;ваша мечта увидеть северное сияние начинает сбываться&nbsp;с&nbsp;билетом в&nbsp;Мурманск.
+            <p class="place__paragraph place__paragraph_count_second">Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю арктического фестиваля в Териберке. Возможно, слово &laquo;Хибины&raquo;&nbsp;не осталось под снегом школьных воспоминаний об&nbsp;уроках географии. Возможно, вы&nbsp;не интересовались пронизывающей земную кору сверхглубокой скважиной, а&nbsp;от&nbsp;апатитов вас&nbsp;давно накрывает апатия. Но&nbsp;ваша мечта увидеть северное сияние начинает сбываться&nbsp;с&nbsp;билетом в&nbsp;Мурманск.
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@
           <div class="place__paragraphs">
             <p class="place__paragraph">Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России. В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы&nbsp;увидите склоны, усыпанные соснами, горные реки и&nbsp;озёра. А&nbsp;если вы&nbsp;откроете в&nbsp;автомобиле окна, сможете познакомиться с&nbsp;невидимым чудом здешних мест&nbsp;&mdash; горным воздухом.
             </p>
-            <p class="place__paragraph">Климат на&nbsp;Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы&nbsp;увидите всё разнообразие местной флоры и&nbsp;фауны. По&nbsp;лесам Алтая бродят лоси, над хребтами летают орлы, а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые манулы&nbsp;&mdash; тоже обитатели Алтайского края.
+            <p class="place__paragraph place__paragraph_count_second">Климат на&nbsp;Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы&nbsp;увидите всё разнообразие местной флоры и&nbsp;фауны. По&nbsp;лесам Алтая бродят лоси, над хребтами летают орлы, а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые манулы&nbsp;&mdash; тоже обитатели Алтайского края.
             </p>
           </div>
         </div>
@@ -120,7 +120,7 @@
           <img class="place__image" alt="Фото замерзшего озера Байкал" src="./images/place-winter-baikal.jpg">
           <div class="place__paragraphs">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в&nbsp;мире.&nbsp;Многие также знают, что это самый большой источник пресной воды и&nbsp;одно из&nbsp;красивейших мест в&nbsp;России.</p>
-            <p class="place__paragraph">Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для соревнований по&nbsp;скийорингу. Это такой вид спорта, когда лыжник привязывает себя
+            <p class="place__paragraph place__paragraph_count_second">Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для соревнований по&nbsp;скийорингу. Это такой вид спорта, когда лыжник привязывает себя
               к&nbsp;мотоциклу,&nbsp;и&nbsp;тандем старается развить как можно б&oacute;льшую скорость на&nbsp;льду. В&nbsp;марте 2019 года&nbsp;на фестивале &laquo;Байкальская миля&raquo; был поставлен мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.</p>
           </div>
         </div>
