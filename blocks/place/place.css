@@ -1,12 +1,14 @@
 .place {
-  width: calc(100% - 148px*2);
+  width: calc(100% - 48px*2);
+  max-width: 984px;
   display: grid;
   grid-template-columns: minmax(min-content, 460px) minmax(456px, 1fr);
   grid-template-areas:
   "title website"
   "image paragraphs";
+  margin: 0 auto;
   gap: 48px 40px;
-  padding: 0 148px 80px 148px;
+  padding: 0 48px 80px 48px;
 }
 
 .place:last-child {
